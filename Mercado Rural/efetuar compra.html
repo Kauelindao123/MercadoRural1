@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color:bisque;
+        }
+       Table {
+
+            Width: 80%;
+
+            Margin-bottom: 30px;
+            Border-collapse: collapse;
+            margin: auto;
+           
+        }
+        Table, th, td {
+            Border: 1px solid #4CAF50;
+        }
+        Th, td {
+            Padding: 10px;
+            Text-align: left;
+            Background-color:;
+        }
+        Th {
+            Background-color:#4CAF50 ;
+            Color: white;
+        }
+        input[type="number"] {
+            width: calc(100% - 22px); /* Para ajustar o tamanho */
+            padding: 10px;
+            font-size: 16px;
+        }
+ .pink{
+
+          margin-top: 100px;
+
+          text-align: center;
+          color:#4CAF50;
+        }
+ .botao{
+
+            padding: 15px 30px; 
+
+            font-size: 18px; 
+            color: white;
+            background-color: #4CAF50; 
+            border: none; 
+            border-radius: 50px;
+            margin-top:30px;
+            
+           }
+          h3,h2{
+            color: black
+          }
+</style>
+<body>
+<div class="pink">
+
+   <h2>Formas de Pagamento</h2>
+
+
+<table>
+    <tr>
+        <th>Forma de Pagamento</th>
+        <th>Selecionar</th>
+    </tr>
+    <tr>
+        <td>Cartão de Crédito</td>
+        <td><input type="radio" name="pagamento" value="cartao_credito"></td>
+    </tr>
+    <tr>
+        <td>Cartão de Débito</td>
+        <td><input type="radio" name="pagamento" value="cartao_debito"></td>
+    </tr>
+    <tr>
+        <td>Boleto Bancário</td>
+        <td><input type="radio" name="pagamento" value="boleto"></td>
+    </tr>
+    <tr>
+        <td>Transferência Bancária</td>
+        <td><input type="radio" name="pagamento" value="transferencia"></td>
+    </tr>
+</table>
+
+<h3>senha:</h3>
+<input type="number" placeholder="Digite um número" required></div>
+ 
+  
+
+ <a href="Index.html">
+
+                 <button class="botao">finalizar compra</button></a>
+</body>
+
+</html>
